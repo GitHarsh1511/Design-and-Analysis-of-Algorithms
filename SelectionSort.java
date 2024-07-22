@@ -28,9 +28,9 @@ public class SelectionSort {
 
     public static void main(String[] args) {
         Random r = new Random();
-        B_prectical_2_Selection_Short S = new B_prectical_2_Selection_Short();
+        SelectionSort S = new SelectionSort();
         // Best Case: Already sorted array
-        int bestCaseArr []= new int[10000];
+        int bestCaseArr[] = new int[10000];
         for (int i = 0; i < bestCaseArr.length; i++) {
             bestCaseArr[i] = i;
         }
