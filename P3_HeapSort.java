@@ -1,5 +1,5 @@
 /*Write a program to implement heap sort. */
-public class 3_HeapSort {
+public class P3_HeapSort {
     public void sort(int arr[]) {
         int N = arr.length;
         // Build Heap
