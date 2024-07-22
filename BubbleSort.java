@@ -1,5 +1,5 @@
 /*Write a program to sort given elements of an array in ascending order using bubble sort. 
-Analyze the time complexity for best, average and worst case. */
+Analyze the time complexity for best, average and worst case.*/
 import java.util.Random;
 
 public class A_prectical_1_Bubble_Short {
