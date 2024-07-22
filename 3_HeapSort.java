@@ -1,5 +1,5 @@
 /*Write a program to implement heap sort. */
-public class HeapSort {
+public class 3_HeapSort {
     public void sort(int arr[]) {
         int N = arr.length;
         // Build Heap
@@ -55,7 +55,7 @@ public class HeapSort {
         int arr[] = { 36, 22, 39, 10, 18, 14 };
         int N = arr.length;
 
-        HeapSort ob = new HeapSort();
+        3_HeapSort ob = new 3_HeapSort();
         ob.sort(arr);
 
         System.out.println("Sorted array is : ");
