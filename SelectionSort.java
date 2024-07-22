@@ -2,7 +2,7 @@
 Analyze the time complexity for best, average and worst case. */
 import java.util.Random;
 
-public class SelectionSort {
+public class B_SelectionSort {
     void selectionSort(int[] arr) {
         int n = arr.length;
         for (int i = 0; i < n - 1; i++) {
@@ -28,7 +28,7 @@ public class SelectionSort {
 
     public static void main(String[] args) {
         Random r = new Random();
-        SelectionSort S = new SelectionSort();
+        B_SelectionSort S = new B_SelectionSort();
         // Best Case: Already sorted array
         int bestCaseArr[] = new int[10000];
         for (int i = 0; i < bestCaseArr.length; i++) {
