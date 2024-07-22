@@ -2,7 +2,7 @@
 Analyze the time complexity for best, average and worst case. */
 import java.util.Random;
 
-public class B_prectical_2_Selection_Short {
+public class SelectionSort {
     void selectionSort(int[] arr) {
         int n = arr.length;
         for (int i = 0; i < n - 1; i++) {
