@@ -55,7 +55,7 @@ public class P3_HeapSort {
         int arr[] = { 36, 22, 39, 10, 18, 14 };
         int N = arr.length;
 
-        3_HeapSort ob = new 3_HeapSort();
+        P3_HeapSort ob = new P3_HeapSort();
         ob.sort(arr);
 
         System.out.println("Sorted array is : ");
