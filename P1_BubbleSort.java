@@ -2,7 +2,7 @@
 Analyze the time complexity for best, average and worst case.*/
 import java.util.Random;
 
-public class A_BubbleShort {
+public class P1_BubbleShort {
     void bubbleSort(int[] arr) {
         int n = arr.length;
         for (int i = 0; i < n - 1; i++) {
@@ -26,7 +26,7 @@ public class A_BubbleShort {
 
     public static void main(String[] args) {
         Random r = new Random();
-        A_BubbleShort B = new A_BubbleShort();
+        P1_BubbleShort B = new P1_BubbleShort();
         // Best Case: Already sorted array
         int bestCaseArr []= new int[10000];
         for (int i = 0; i < bestCaseArr.length; i++) {
